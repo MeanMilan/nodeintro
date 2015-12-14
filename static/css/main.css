@@ -13,9 +13,24 @@ img{
     .btn.full{
         width: 100%;
     }
-    
+
     [class^="col"], form .btn + .btn {
         margin: 10px 0;
     }
 }
 
+
+section {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+h1{
+  color: #ffffff;
+}
+
+body{
+  background: url('../images/natale.jpeg') center center transparent;
+  background-size: cover;
+  background-attachment: fixed;
+}

@@ -1,52 +1,4 @@
 {"k":"0000000080","o":"0000000127","v":"001"}
-{"_id":36,"_uid":36,"_dt":1450092820212,"_s":"3264e0f1226f2d1f096774142a8c2b61"}
-{"username":"cane","name":"roba che scotta","timestamp":1450092820212,"id":"roba che scottacane","_id":{"$wrap":"$oid","v":36}}
-{"k":"0000000080","o":"0000000129","v":"001"}
-{"_id":39,"_uid":39,"_dt":1450092820217,"_s":"780ec8603955c3900bf1d663e1500cee"}
-{"username":"gatto","name":"roba che scotta","timestamp":1450092820217,"id":"roba che scottagatto","_id":{"$wrap":"$oid","v":39}}
-{"k":"0000000080","o":"0000000129","v":"001"}
-{"_id":40,"_uid":40,"_dt":1450092820220,"_s":"b7e69d501aeb3525ba9caee33a752e76"}
-{"username":"capra","name":"roba che scotta","timestamp":1450092820220,"id":"roba che scottacapra","_id":{"$wrap":"$oid","v":40}}
-{"k":"0000000080","o":"0000000141","v":"001"}
-{"_id":41,"_uid":41,"_dt":1450092820222,"_s":"cd59bef200dd1f3dc40677ba1abebbf1"}
-{"username":"capra","name":"roba molto molto hard","timestamp":1450092820222,"id":"roba molto molto hardcapra","_id":{"$wrap":"$oid","v":41}}
-{"k":"0000000051","o":"0000000000","v":"001"}
-{"_id":36,"_uid":41,"_dt":1450092840532,"_a":"del"}
-
-{"k":"0000000051","o":"0000000000","v":"001"}
-{"_id":39,"_uid":41,"_dt":1450092840533,"_a":"del"}
-
-{"k":"0000000051","o":"0000000000","v":"001"}
-{"_id":40,"_uid":41,"_dt":1450092840533,"_a":"del"}
-
-{"k":"0000000051","o":"0000000000","v":"001"}
-{"_id":41,"_uid":41,"_dt":1450092840533,"_a":"del"}
-
-{"k":"0000000080","o":"0000000127","v":"001"}
-{"_id":42,"_uid":42,"_dt":1450092840556,"_s":"4de7d58061739712e9b940e743527ecd"}
-{"username":"cane","name":"roba che scotta","timestamp":1450092840554,"id":"roba che scottacane","_id":{"$wrap":"$oid","v":42}}
-{"k":"0000000080","o":"0000000129","v":"001"}
-{"_id":45,"_uid":45,"_dt":1450092840574,"_s":"24eef0a090e2a1561c5fa5d8b6ba4aac"}
-{"username":"gatto","name":"roba che scotta","timestamp":1450092840574,"id":"roba che scottagatto","_id":{"$wrap":"$oid","v":45}}
-{"k":"0000000080","o":"0000000129","v":"001"}
-{"_id":46,"_uid":46,"_dt":1450092840576,"_s":"62158707ba87cb246724e0086384c0d9"}
-{"username":"capra","name":"roba che scotta","timestamp":1450092840575,"id":"roba che scottacapra","_id":{"$wrap":"$oid","v":46}}
-{"k":"0000000080","o":"0000000141","v":"001"}
-{"_id":47,"_uid":47,"_dt":1450092840577,"_s":"8a2117d7451cf337f91774a8ead32177"}
-{"username":"capra","name":"roba molto molto hard","timestamp":1450092840577,"id":"roba molto molto hardcapra","_id":{"$wrap":"$oid","v":47}}
-{"k":"0000000051","o":"0000000000","v":"001"}
-{"_id":42,"_uid":47,"_dt":1450092840588,"_a":"del"}
-
-{"k":"0000000051","o":"0000000000","v":"001"}
-{"_id":45,"_uid":47,"_dt":1450092840588,"_a":"del"}
-
-{"k":"0000000051","o":"0000000000","v":"001"}
-{"_id":46,"_uid":47,"_dt":1450092840589,"_a":"del"}
-
-{"k":"0000000051","o":"0000000000","v":"001"}
-{"_id":47,"_uid":47,"_dt":1450092840589,"_a":"del"}
-
-{"k":"0000000080","o":"0000000127","v":"001"}
 {"_id":48,"_uid":48,"_dt":1450092840590,"_s":"d337f78b8ecb71f1c39dfe64f0846d36"}
 {"username":"cane","name":"roba che scotta","timestamp":1450092840590,"id":"roba che scottacane","_id":{"$wrap":"$oid","v":48}}
 {"k":"0000000080","o":"0000000129","v":"001"}
@@ -58,3 +10,12 @@
 {"k":"0000000080","o":"0000000141","v":"001"}
 {"_id":53,"_uid":53,"_dt":1450092840605,"_s":"796924787f8681256f84c92046e01560"}
 {"username":"capra","name":"roba molto molto hard","timestamp":1450092840605,"id":"roba molto molto hardcapra","_id":{"$wrap":"$oid","v":53}}
+{"k":"0000000080","o":"0000000113","v":"001"}
+{"_id":54,"_uid":54,"_dt":1450093688758,"_s":"42852ce3c464360c6c4b45cb909de86e"}
+{"username":"babbuino","name":"ex-0","timestamp":1450093688756,"id":"ex-0babbuino","_id":{"$wrap":"$oid","v":54}}
+{"k":"0000000080","o":"0000000113","v":"001"}
+{"_id":58,"_uid":58,"_dt":1450093922818,"_s":"0eab508ed5a1c29e440ac482408dde30"}
+{"username":"babbuino","name":"ex-1","timestamp":1450093922817,"id":"ex-1babbuino","_id":{"$wrap":"$oid","v":58}}
+{"k":"0000000080","o":"0000000113","v":"001"}
+{"_id":59,"_uid":59,"_dt":1450093997001,"_s":"40df4d1b7aa1a85c9bfdc8f316704894"}
+{"username":"babbuino","name":"ex-3","timestamp":1450093997001,"id":"ex-3babbuino","_id":{"$wrap":"$oid","v":59}}
