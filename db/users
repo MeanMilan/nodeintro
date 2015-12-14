@@ -1,0 +1,30 @@
+{"k":"0000000082","o":"0000000101","v":"001"}
+{"_id":364,"_uid":364,"_dt":1449941111320,"_s":"a2a137dcbed15c98a98e7476d38f6072"}
+{"username":"cane","name":"roba che scotta","timestamp":1449941111320,"_id":{"$wrap":"$oid","v":364}}
+{"k":"0000000082","o":"0000000102","v":"001"}
+{"_id":365,"_uid":365,"_dt":1449941111323,"_s":"2eb703fb6c6656dfd831a015113c63c9"}
+{"username":"gatto","name":"roba che scotta","timestamp":1449941111322,"_id":{"$wrap":"$oid","v":365}}
+{"k":"0000000082","o":"0000000102","v":"001"}
+{"_id":366,"_uid":366,"_dt":1449941111325,"_s":"849094e68228ee7cdcef8eee201acb73"}
+{"username":"capra","name":"roba che scotta","timestamp":1449941111324,"_id":{"$wrap":"$oid","v":366}}
+{"k":"0000000082","o":"0000000108","v":"001"}
+{"_id":367,"_uid":367,"_dt":1449941111326,"_s":"10a6e98796a084b6430cc8a75cbdcfc5"}
+{"username":"capra","name":"roba molto molto hard","timestamp":1449941111326,"_id":{"$wrap":"$oid","v":367}}
+{"k":"0000000082","o":"0000000092","v":"001"}
+{"_id":368,"_uid":368,"_dt":1450021317248,"_s":"253f778003c0d696f5e89ffa1c626ef6"}
+{"username":"capra","name":"asino","timestamp":1450021317246,"_id":{"$wrap":"$oid","v":368}}
+{"k":"0000000082","o":"0000000092","v":"001"}
+{"_id":369,"_uid":369,"_dt":1450021379455,"_s":"e8e9610f3e48dd694d52128efa1a73ca"}
+{"username":"capra","name":"asino","timestamp":1450021379454,"_id":{"$wrap":"$oid","v":369}}
+{"k":"0000000082","o":"0000000092","v":"001"}
+{"_id":370,"_uid":370,"_dt":1450021414856,"_s":"cfad5ebf2a53831b0edd8ab3fa7dd235"}
+{"username":"capra","name":"asino","timestamp":1450021414854,"_id":{"$wrap":"$oid","v":370}}
+{"k":"0000000082","o":"0000000092","v":"001"}
+{"_id":371,"_uid":371,"_dt":1450022431830,"_s":"3645833fb387ce3a47b78ff0a08587b4"}
+{"username":"gatto","name":"asino","timestamp":1450022431828,"_id":{"$wrap":"$oid","v":371}}
+{"k":"0000000082","o":"0000000095","v":"001"}
+{"_id":372,"_uid":372,"_dt":1450022447545,"_s":"ac81a67c7dfbe2f992f7d375505465a0"}
+{"username":"babbuino","name":"asino","timestamp":1450022447545,"_id":{"$wrap":"$oid","v":372}}
+{"k":"0000000082","o":"0000000096","v":"001"}
+{"_id":373,"_uid":373,"_dt":1450022458456,"_s":"5a24adfe45f0eb4b0e52f23217fa752d"}
+{"username":"babbuino","name":"manaja","timestamp":1450022458455,"_id":{"$wrap":"$oid","v":373}}

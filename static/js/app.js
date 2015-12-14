@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('handlingNinja', ['ngResource','btford.socket-io']);
+angular.module('Ranking', ['ngResource','btford.socket-io']);

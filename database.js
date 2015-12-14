@@ -14,7 +14,7 @@ var dbPath = path.join(__dirname, 'db');
 
 var db = new Db(dbPath, {});
 // Fetch a collection to insert document into
-var collection = db.collection("ninja");
+var collection = db.collection('users');
 
 /**
  * TODO collection must be the default export for this module

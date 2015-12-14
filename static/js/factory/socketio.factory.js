@@ -1,14 +1,17 @@
 'use strict';
 
-angular.module('handlingNinja')
-    .factory('mySocket', function (socketFactory) {
+angular.module('Ranking')
+    .factory('mySocket', function ($window, socketFactory) {
 
-        console.log(io);
-        var myIoSocket = io.connect('http://127.0.0.1:3000');
+      var myIoSocket = $window.io.connect('http://mean.link-me.it:3000');
 
-        var mySocket = socketFactory({
-            ioSocket: myIoSocket
-        });
+      var mySocket = socketFactory({
+        ioSocket: myIoSocket
+      });
 
-        return mySocket;
+      window.onbeforeunload = function(){
+        console.log('porcocane')
+        myIoSocket.close();
+      }
+      return mySocket;
     });

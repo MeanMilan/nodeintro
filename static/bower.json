@@ -1,11 +1,10 @@
 {
-  "name": "Handling Ninja",
-  "version": "1.0.0",
+  "name": "Mean friendly competition",
+  "version": "0.1.0",
   "authors": [
-    "Matteo Scandolo <matteo.scandolo@link-me.it>"
+    "Giovanni Lela <giovanni.lela@link-me.it>"
   ],
   "license": "MIT",
-  "private": true,
   "dependencies": {
     "angular": "~1.3.8",
     "angular-resource": "~1.3.8",

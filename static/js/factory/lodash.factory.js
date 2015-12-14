@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('handlingNinja')
+angular.module('Ranking')
     .factory('_', function($window){
         return $window._;
     });

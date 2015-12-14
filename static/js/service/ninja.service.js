@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('handlingNinja')
-  .service('Ninja',function($resource){
-    var Ninja = $resource('http://localhost:8080/api/ninja/:_id',{_id: '@_id'});
-    return Ninja;
-  });
+angular.module('Ranking')
+.service('User',function($resource){
+  var User = $resource('http://mean.link-me.it:3000/api/ranking');
+  return User;
+});
