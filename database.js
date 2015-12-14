@@ -10,15 +10,29 @@ var path = require('path');
  */
 
 //var dbPath = '?';
-var dbPath = path.join(__dirname, 'db');
+//
+//
 
+var db = null;
+var dbPath = path.join(__dirname, 'db');
 var db = new Db(dbPath, {});
-// Fetch a collection to insert document into
 var collection = db.collection('users');
 
-/**
- * TODO collection must be the default export for this module
- *
- * https://nodejs.org/api/modules.html#modules_cycles
- */
-module.exports = collection;
+exports.db = collection;
+
+exports.plugin = (server, options, next) => {
+
+  collection.createIndex({id: 1}, {unique: true}, function(err, index){
+
+    if(err){
+      return err;
+    }
+
+    server.db = db;
+    next();
+  })
+}
+exports.plugin.attributes = {
+  name: 'db',
+  version: '0.1.0'
+}

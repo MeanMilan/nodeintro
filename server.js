@@ -24,19 +24,22 @@ server.connection({
 });
 
 server.register([
-  Inert
+  Inert,
+  db.plugin
 ],
 function(err){
   if(err){
-    //TODO BONUS errors should be logged
+    console.log('Cannot start server because of', err.message);
   }
+  server.start(function(err){
+    console.log('I live again - on '+ HOST +':'+ PORT);
+    console.log(err)
+  });
 });
 
 
 
 const io = require('socket.io').listen(server.listener);
-
-
 /**
  * Serve the client
  */
@@ -63,12 +66,10 @@ server.route({
   handler: function(request, reply){
 
     const event = _.extend(
-      request.payload, {timestamp: new Date().getTime() }
+      request.payload, {timestamp: new Date().getTime(), id: request.payload.name+request.payload.username }
     );
-    
-    io.emit('submission', event);
 
-    db.insert(
+    db.db.insert(
       event,
       function(err, res){
 
@@ -76,12 +77,12 @@ server.route({
           return reply(Boom.wrap(err, 500));
         }
 
+        io.emit('submission', event);
         return reply(res);
       }
     );
   }
 });
-
 
 
 /**
@@ -100,7 +101,7 @@ server.route({
 
     io.emit('prova', {a: 'b'});
 
-    db.find({}, function(err, res){
+    db.db.find({}, function(err, res){
 
       if(err){
         return reply(Boom.wrap(err, 500));
@@ -132,8 +133,5 @@ server.route({
   }
 });
 
-server.start(function(){
-  console.log('I live again - on '+ HOST +':'+ PORT);
-});
 
 module.exports = server;
